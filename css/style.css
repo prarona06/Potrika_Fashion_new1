@@ -297,7 +297,6 @@
 
 .sidebar-post a:hover {
     color: #e63946;
-    /* hover হলে লাল হবে */
 }
 
 .sidebar-post small {
@@ -311,4 +310,120 @@
 .sidebar-post i {
     font-size: 14px;
     color: #666;
+}
+
+.categories-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background: #fff;
+}
+
+.categories-box h5 {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.categories-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories-box ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 15px;
+    color: #333;
+}
+
+.categories-box ul li:last-child {
+    border-bottom: none;
+}
+
+.categories-box ul li span {
+    color: #666;
+}
+
+.ad-box {
+    background: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.ad-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.subscribe-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.subscribe-box h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.subscribe-box input {
+    margin-bottom: 15px;
+}
+
+.subscribe-btn {
+    background: #e63946;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.latest-news-title {
+    background: #0d1b3d;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.blog-card h5 {
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+.tag-cloud a {
+    display: inline-block;
+    background: #f1f1f1;
+    margin: 5px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.tag-cloud a:hover {
+    background: #0d6efd;
+    color: #fff;
 }
