@@ -492,7 +492,6 @@
         font-size: 12px;
         color: #777;
     }
-    /* Big featured left section */
     
     .featured-post {
         background: #fff;
@@ -533,4 +532,70 @@
         height: 28px;
         border-radius: 50%;
         margin-right: 6px;
+    }
+    
+    .slider-wrapper {
+        max-width: 95%;
+        margin: 30px auto;
+        position: relative;
+    }
+    
+    .my-slick .slide-box {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    
+    .slide-box img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        display: block;
+        border-radius: 4px;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03);
+    }
+    
+    .custom-arrow {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: #faf4f4;
+        border: 1px solid #e33b3b;
+        color: #e33b3b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    }
+    
+    .custom-arrow:hover {
+        background-color: #b80707;
+    }
+    /* position arrows a little outside (adjust if needed) */
+    
+    .slick-prev.custom-arrow {
+        left: -48px;
+    }
+    
+    .slick-next.custom-arrow {
+        right: -48px;
+    }
+    /* remove default outline on buttons */
+    
+    .custom-arrow:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    /* small screens: move arrows closer */
+    
+    @media (max-width: 576px) {
+        .slick-prev.custom-arrow {
+            left: -20px;
+        }
+        .slick-next.custom-arrow {
+            right: -20px;
+        }
+        .slide-box img {
+            height: 220px;
+        }
     }
