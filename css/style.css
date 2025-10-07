@@ -571,7 +571,6 @@
     .custom-arrow:hover {
         background-color: #b80707;
     }
-    /* position arrows a little outside (adjust if needed) */
     
     .slick-prev.custom-arrow {
         left: -48px;
@@ -580,13 +579,11 @@
     .slick-next.custom-arrow {
         right: -48px;
     }
-    /* remove default outline on buttons */
     
     .custom-arrow:focus {
         outline: none;
         box-shadow: none;
     }
-    /* small screens: move arrows closer */
     
     @media (max-width: 576px) {
         .slick-prev.custom-arrow {
@@ -598,4 +595,55 @@
         .slide-box img {
             height: 220px;
         }
+    }
+    
+    .footer {
+        background: #0b0d27;
+        background-size: cover;
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    .footer-logo {
+        font-weight: 700;
+        font-size: 26px;
+    }
+    
+    .footer .footer-contact p {
+        margin-bottom: 8px;
+    }
+    
+    .footer .footer-title {
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    
+    .footer a {
+        color: #ddd;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        color: #e33b3b;
+    }
+    
+    .footer .form-control {
+        border-radius: 0;
+        border: none;
+        font-size: 14px;
+    }
+    
+    .footer .btn {
+        border-radius: 0;
+    }
+    
+    .footer-social a {
+        color: #fff;
+        margin-right: 12px;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+    
+    .footer-social a:hover {
+        color: #e33b3b;
     }
