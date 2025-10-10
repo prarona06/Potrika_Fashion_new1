@@ -57,15 +57,17 @@
     }
     
     .hero-image {
-        max-width: 100%;
-        z-index: 0;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
         position: relative;
-        margin-left: -140px;
     }
     
     .slider_wrapper {
-        width: 100px;
-        height: 430px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .article-box {
@@ -480,6 +482,14 @@
         align-items: center;
         border-radius: 50%;
         font-size: 12px;
+        position: absolute;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .play-btn:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+        background-color: #c40000;
     }
     
     .video-text h6 {
@@ -603,14 +613,18 @@
         color: #fff;
         font-size: 14px;
     }
-    
-    .footer-logo {
+    /* .footer-logo {
         font-weight: 700;
         font-size: 26px;
     }
     
     .footer .footer-contact p {
         margin-bottom: 8px;
+    }*/
+    
+    .logo-wrapper {
+        height: 50px;
+        width: 60px;
     }
     
     .footer .footer-title {
