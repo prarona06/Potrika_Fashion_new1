@@ -258,10 +258,11 @@
     
     .sidebar-box {
         border: 1px solid #eee;
-        padding: 20px;
+        padding: 30px;
         border-radius: 12px;
         background: #fff;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        height: 500px;
     }
     
     .sidebar-title {
@@ -463,9 +464,15 @@
     
     .video-box img {
         width: 100px;
-        height: 70px;
         object-fit: cover;
         border-radius: 6px;
+    }
+
+    .main-box{
+        padding: 20px !important;
+    }
+    .main-box>img{
+        width: 100% !important;
     }
     
     .play-btn {
@@ -613,19 +620,6 @@
         color: #fff;
         font-size: 14px;
     }
-    /* .footer-logo {
-        font-weight: 700;
-        font-size: 26px;
-    }
-    
-    .footer .footer-contact p {
-        margin-bottom: 8px;
-    }*/
-    
-    .logo-wrapper {
-        height: 50px;
-        width: 60px;
-    }
     
     .footer .footer-title {
         font-weight: 600;
@@ -661,3 +655,17 @@
     .footer-social a:hover {
         color: #e33b3b;
     }
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-arrow:hover:before {
+    color: #fff;
+}
