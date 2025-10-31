@@ -142,3 +142,149 @@
         font-size: 1rem;
         margin-top: 10px;
     }
+    /*contact css*/
+    
+    .map-container {
+        position: relative;
+        height: 350px;
+        width: 100%;
+    }
+    
+    .contact-info {
+        margin-top: -70px;
+        z-index: 10;
+        position: relative;
+    }
+    
+    .info-box {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 30px 20px;
+        transition: all 0.3s ease;
+    }
+    
+    .info-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+    
+    .info-box i {
+        font-size: 35px;
+        color: #0d6efd;
+        margin-bottom: 15px;
+    }
+    /*leave msg*/
+    
+    .contact-section {
+        padding: 60px 0;
+    }
+    
+    .contact-section h2 {
+        text-align: center;
+        font-weight: 700;
+        color: #0c0c35;
+        margin-bottom: 40px;
+    }
+    
+    .contact-form .form-control {
+        border: 1px solid #ccc;
+        border-radius: 0;
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+    
+    .contact-form textarea {
+        resize: none;
+    }
+    
+    .btn-send {
+        display: inline-block;
+        background-color: #e50914;
+        color: #fff;
+        padding: 10px 40px;
+        border-radius: 30px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        border: none;
+    }
+    
+    .btn-send:hover {
+        background-color: #b920ce;
+    }
+    /* Shadow effect on sides */
+    
+    .shadow-wrap {
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+        padding: 50px;
+        background: #fff;
+    }
+    
+    @media (max-width: 768px) {
+        .shadow-wrap {
+            padding: 30px 20px;
+        }
+    }
+    /*about page*/
+    
+    .mission-section {
+        padding: 100px 0;
+        position: relative;
+        overflow: visible;
+    }
+    
+    .mission-img-wrapper {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .mission-img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .mission-content {
+        position: absolute;
+        bottom: -70px;
+        /* overlap height */
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fff;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 40px 50px;
+        text-align: center;
+        width: 85%;
+        /* slightly smaller than image (col-8 width) */
+        z-index: 2;
+    }
+    
+    .mission-content h6 {
+        color: #e50914;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .mission-content h3 {
+        font-weight: 700;
+        color: #0c0c35;
+        margin-bottom: 15px;
+    }
+    
+    .mission-content p {
+        color: #555;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    
+    @media (max-width: 768px) {
+        .mission-content {
+            width: 95%;
+            padding: 25px 20px;
+            bottom: -50px;
+        }
+    }
